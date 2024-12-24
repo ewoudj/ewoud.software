@@ -4,16 +4,28 @@
   "description": "Laser War in Space: This universe ain't big enough for both of us.",
   "icons": [
     {
-      "src": "resources/images/manifest-icon-192.png",
+      "src": "assets/manifest-icon-192.maskable.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "maskable any"
+      "purpose": "any"
     },
     {
-      "src": "resources/images/manifest-icon-512.png",
+      "src": "assets/manifest-icon-192.maskable.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/manifest-icon-512.maskable.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "maskable any"
+      "purpose": "any"
+    },
+    {
+      "src": "assets/manifest-icon-512.maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
     }
   ],
   "start_url": "index.html",
