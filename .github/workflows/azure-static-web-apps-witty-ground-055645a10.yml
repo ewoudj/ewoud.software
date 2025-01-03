@@ -28,7 +28,7 @@ jobs:
           action: "upload"
           app_location: "/"  # App source code path
           output_location: "."  # Built app content directory (set to the root since no build is needed)
-          app_build_command: '' # Do nothing
+          skip_app_build: true # Do nothing
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
